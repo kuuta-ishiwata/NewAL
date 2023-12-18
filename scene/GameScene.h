@@ -107,4 +107,9 @@ private: // メンバ変数
 	std::unique_ptr<Model> enemyFighterL_arm_;
 	std::unique_ptr<Model> enemyFighterR_arm_;
 
+	// 武器モデル
+	std::unique_ptr<Model> modelWeapon_;
+
+
+
 };
